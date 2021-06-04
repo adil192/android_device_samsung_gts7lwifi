@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_c2q.mk
+    $(LOCAL_DIR)/lineage_z3q.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_c2q-eng \
-    lineage_c2q-userdebug \
-    lineage_c2q-user
+    lineage_z3q-eng \
+    lineage_z3q-userdebug \
+    lineage_z3q-user

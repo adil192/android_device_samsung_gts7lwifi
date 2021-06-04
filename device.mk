@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE_PATH := device/samsung/c2q
+DEVICE_PATH := device/samsung/z3q
 
 # Inherit common device configuration
 $(call inherit-product, device/samsung/sm8250-common/common.mk)
@@ -36,7 +36,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    lineage.biometrics.fingerprint.inscreen@1.0-service.c2q
+    lineage.biometrics.fingerprint.inscreen@1.0-service.z3q
 
 PRODUCT_COPY_FILES += \
     vendor/lineage/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:system/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml

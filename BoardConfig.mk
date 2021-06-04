@@ -16,7 +16,7 @@
 # Inherit common board flags
 -include device/samsung/sm8250-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/samsung/c2q
+DEVICE_PATH := device/samsung/z3q
 
 #WITH_GMS := true
 
@@ -31,9 +31,9 @@ CUSTOM_APNS_FILE := $(DEVICE_PATH)/configs/sprint_apns.xml
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # FOD
-TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.c2q
+TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.z3q
 
-TARGET_KERNEL_CONFIG := vendor/c2q_usa_singlew_defconfig
+TARGET_KERNEL_CONFIG := vendor/z3q_usa_singlew_defconfig
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
 
@@ -48,5 +48,5 @@ TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_c2q
-TARGET_RECOVERY_DEVICE_MODULES := libinit_c2q
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_z3q
+TARGET_RECOVERY_DEVICE_MODULES := libinit_z3q
