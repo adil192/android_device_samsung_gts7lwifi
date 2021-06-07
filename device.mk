@@ -32,7 +32,7 @@ PRODUCT_COPY_FILES += \
 
 # Display
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.sf.lcd_density=560
+    ro.sf.lcd_density=411
 
 # Fingerprint
 PRODUCT_PACKAGES += \
