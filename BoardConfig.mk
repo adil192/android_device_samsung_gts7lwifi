@@ -10,9 +10,7 @@ TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
 TARGET_OTA_ASSERT_DEVICE := gts7lwifi
 
 # Kernel
-# todo: fix for gts7lwifi's kernel
-TARGET_KERNEL_CONFIG := vendor/x1q_chn_openx_defconfig
-TARGET_KERNEL_VARIANT_CONFIG := vendor/variant_gts7lwifi_chn_openx_defconfig
+TARGET_KERNEL_CONFIG := vendor/gts7lwifi_eur_open_defconfig
 KERNEL_LD := DEBUG_DEFCONFIG=vendor/aosp_defconfig
 
 # Bluetooth
