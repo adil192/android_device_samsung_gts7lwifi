@@ -2,9 +2,9 @@
 $(call inherit-product, device/samsung/sm8250-common/sm8250.mk)
 
 # Proprietary blobs
-$(call inherit-product-if-exists, vendor/samsung/z3q/z3q-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/gts7lwifi/gts7lwifi-vendor.mk)
 
-DEVICE_PATH := device/samsung/z3q
+DEVICE_PATH := device/samsung/gts7lwifi
 
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
