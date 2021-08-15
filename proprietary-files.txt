@@ -175,9 +175,7 @@ vendor/lib64/hw/android.hardware.gnss@2.0-impl.so
 vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
 
 # Keystore
-vendor/bin/hw/android.hardware.keymaster@4.0-service
 vendor/bin/hw/android.hardware.keymaster@4.0-strongbox-service-qti
-vendor/etc/init/android.hardware.keymaster@4.0-service.rc
 vendor/etc/init/android.hardware.keymaster@4.0-strongbox-service-qti.rc
 vendor/lib/libkeymasterdeviceutils.so
 vendor/lib/libkeymasterutils.so
